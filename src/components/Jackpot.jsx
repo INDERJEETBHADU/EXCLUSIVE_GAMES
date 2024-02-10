@@ -210,7 +210,11 @@ function Jackpot() {
         <div className="row pt_60 d-flex justify-content-center">
           <div className="col-md-4  col-sm-6 col-12 ">
             <div className=" position-relative hover_layer">
-              <img className="  w-100" src={betting1} alt="betting1" />
+              <img
+                className="  w-100 border_rad"
+                src={betting1}
+                alt="betting1"
+              />
               <div className="layer_img position-absolute layer_position translate-middle d-flex justify-content-center align-items-center">
                 <div className=" position-relative">
                   <button className=" font-inter fw-700 text-16 lh-25 reprod_btn color-white  mb-0 ">
@@ -225,7 +229,11 @@ function Jackpot() {
           </div>
           <div className="col-md-4  col-sm-6 col-12 mt-5  mt-sm-0 ">
             <div className=" position-relative hover_layer ">
-              <img className="   w-100 " src={betting2} alt="betting1" />
+              <img
+                className="   w-100 border_rad "
+                src={betting2}
+                alt="betting1"
+              />
               <div className="layer_img position-absolute layer_position translate-middle d-flex justify-content-center align-items-center">
                 <div className=" position-relative">
                   <button className=" font-inter fw-700 text-16 lh-25 reprod_btn color-white  mb-0 ">
@@ -240,7 +248,11 @@ function Jackpot() {
           </div>
           <div className="col-md-4  col-sm-6 col-12 mt-5 position-relative z-30   mt-md-0  ">
             <div className=" position-relative hover_layer">
-              <img className="  w-100" src={betting3} alt="betting1" />
+              <img
+                className="  w-100 border_rad"
+                src={betting3}
+                alt="betting1"
+              />
               <div className="layer_img position-absolute layer_position translate-middle d-flex justify-content-center align-items-center">
                 <div className=" position-relative">
                   <button className=" font-inter fw-700 text-16 lh-25 reprod_btn color-white  mb-0 ">

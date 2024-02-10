@@ -523,7 +523,7 @@ function Silverlayer() {
         <div className="row pt_60 d-flex justify-content-center">
           <div className="col-md-4 col-sm-6 col-12">
             <div className=" position-relative hover_layer">
-              <img className=" w-100" src={wheel_free} alt="wheel" />
+              <img className=" w-100 border_rad" src={wheel_free} alt="wheel" />
               <div className="layer_img position-absolute layer_position translate-middle d-flex justify-content-center align-items-center">
                 <div className=" position-relative">
                   <button className=" font-inter fw-700 text-16 lh-25 reprod_btn color-white  mb-0 ">
@@ -538,7 +538,7 @@ function Silverlayer() {
           </div>
           <div className="col-md-4 col-sm-6 col-12 mt-4  mt-sm-0">
             <div className=" position-relative hover_layer">
-              <img className=" w-100" src={todo} alt="todo" />
+              <img className=" w-100 border_rad" src={todo} alt="todo" />
               <div className="layer_img position-absolute layer_position translate-middle d-flex justify-content-center align-items-center">
                 <div className=" position-relative">
                   <button className=" font-inter fw-700 text-16 lh-25 reprod_btn color-white  mb-0 ">
@@ -553,7 +553,7 @@ function Silverlayer() {
           </div>
           <div className="col-md-4 col-sm-6  col-12 mt-4 mt-md-0">
             <div className=" position-relative hover_layer">
-              <img className=" w-100" src={happyhour} alt="wheel" />
+              <img className=" w-100 border_rad" src={happyhour} alt="wheel" />
               <div className="layer_img position-absolute layer_position translate-middle d-flex justify-content-center align-items-center">
                 <div className=" position-relative">
                   <button className=" font-inter fw-700 text-16 lh-25 reprod_btn color-white  mb-0 ">

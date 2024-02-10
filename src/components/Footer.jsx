@@ -5,6 +5,7 @@ import footer_left from "../assets/images/PNG/footer_left_ellipse.png";
 import { Facebook, Indeed, Insta } from "./Icon";
 
 function Footer() {
+  
   return (
     <section className=" bg-black mt_neg_2 pt_64  position-relative  overflow-hidden">
       <div className="container">
@@ -19,21 +20,27 @@ function Footer() {
               de multiplataformas para juegos de azar
             </p>
             <div className=" d-flex  align-items-center gap_12 mt_24">
-              <div className="icon_box  d-flex justify-content-center align-items-center   cursor-pointer  position-relative z-30">
-                <a href="https://www.instagram.com/" target="_blank">
-                  <Insta />
-                </a>
-              </div>
-              <div className="icon_box d-flex  align-items-center justify-content-center cursor-pointer ">
-                <a href=" https://www.facebook.com/" target="_blank">
-                  <Facebook />
-                </a>
-              </div>
-              <div className="icon_box d-flex align-items-center   justify-content-center cursor-pointer ">
-                <a href=" https://in.indeed.com/?r=us" target="_blank">
-                  <Indeed />
-                </a>
-              </div>
+              <a
+                className="icon_box  d-flex justify-content-center align-items-center   cursor-pointer  position-relative z-30"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <Insta />
+              </a>
+              <a
+                className="icon_box d-flex  align-items-center justify-content-center cursor-pointer position-relative z-30"
+                href=" https://www.facebook.com/"
+                target="_blank"
+              >
+                <Facebook />
+              </a>
+              <a
+                className="icon_box d-flex align-items-center   justify-content-center cursor-pointer position-relative z-30"
+                href=" https://in.indeed.com/?r=us"
+                target="_blank"
+              >
+                <Indeed />
+              </a>
             </div>
           </div>
           <div className="col-xl-3 col-md-3 col-6  pt-4 pt-lg-0 col-lg-2 d-flex justify-content-md-center">
@@ -133,9 +140,12 @@ function Footer() {
                   fill="white"
                 />
               </svg>
-              <p className=" font-inter fw-500 text-16 mb-0  lh-25 color-white  cursor-pointer opacity-8">
+              <a
+                href="mailto:juegosexclusivos@gmail.com"
+                className=" font-inter fw-500 text-16 mb-0  lh-25 color-white  cursor-pointer opacity-8"
+              >
                 juegosexclusivos@gmail.com
-              </p>
+              </a>
             </div>
             <div className=" d-flex align-items-center gap-2 pt_16">
               <svg
@@ -150,16 +160,19 @@ function Footer() {
                   fill="white"
                 />
               </svg>
-              <p className=" mb-0 font-inter fw-500 text-16   lh-25 color-white  cursor-pointer opacity-8">
+              <a
+                href=" tel: (101)342-7873"
+                className=" mb-0 font-inter fw-500 text-16   lh-25 color-white  cursor-pointer opacity-8"
+              >
                 (101)342-7873
-              </p>
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div className="line_footer"></div>
       <p className=" mb-0 color-white  font-inter fw-500 text-16 lh-25 text-center  py_20">
-        © Juegos exclusivos - Todos los derechos reservados 2023
+        © Juegos exclusivos - Todos los derechos reservados 2024
       </p>
       <div className=" position-absolute footer_right_ellipse d-xl-block d-none">
         <img src={footer_right} alt="footer_right" />
